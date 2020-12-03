@@ -3,8 +3,13 @@ nav {
   background-color: teal;
 }
 
+.black {
+  color: black;
+  font-size: large;
+}
+
 body {
-  background-color: lightseagreen;
+  background-color: white;
 }
 
 footer {

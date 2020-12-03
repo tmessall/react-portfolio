@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-info">
       <Link
               to="/"
-              className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+              className={location.pathname === "/" ? "nav-link active black" : "nav-link black"}
             >
               Travis Messall
         </Link>
@@ -18,7 +18,7 @@ function Navbar() {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="nav nav-tabs">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link
               to="/"
@@ -40,11 +40,11 @@ function Navbar() {
               to="/portfolio"
               className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
             >
-              Contact
+              Portfolio
         </Link>
           </li>
           <li className="nav-item">
-            <a class="nav-link" href="https://docs.google.com/document/d/1tUMnm-iSrIAoMpYcpYSbdvQnngs8TAZPF00CFfGPGes/edit?usp=sharing">Resume</a>
+            <a className="nav-link" href="https://docs.google.com/document/d/1tUMnm-iSrIAoMpYcpYSbdvQnngs8TAZPF00CFfGPGes/edit?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>

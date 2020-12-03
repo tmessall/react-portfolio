@@ -1,14 +1,13 @@
 import React from "react";
 
 function Project(props) {
-
   return (
-    <div class="col-12 col-md-6 col-lg-4">
-      <h3>National Parks Project</h3>
-      <img src="./assets/images/projectOne.png" alt="National Parks Image" class="pt-2 mx-auto d-block w-100" />
-        <p><a href="https://github.com/tmessall/dubootcampProjectOne">Repository</a>
+    <div className="col-12 col-md-6 col-lg-4">
+      <h3>{props.name}</h3>
+      <img src={props.img} alt={props.name} className="pt-2 mx-auto d-block w-100" />
+        <p><a href={props.repo}>Repository</a>
         </p>
-        <a href="https://tmessall.github.io/dubootcampProjectOne/">Site</a>
+        <a href={props.site}>Site</a>
     </div>
   )
 }
