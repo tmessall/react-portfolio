@@ -1,12 +1,8 @@
 import React from "react";
 import Project from "../components/Project"
 import Projects from "../projects.json"
-import projectOne from "../assets/projectOne.png"
-import congo from "../assets/congo.png"
 
 function Portfolio() {
-  console.log(projectOne)
-  console.log(congo)
   return (
     <div className="container-fluid mt-4 main">
         <div className="row">

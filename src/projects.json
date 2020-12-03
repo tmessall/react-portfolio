@@ -1,12 +1,12 @@
 [
   {
-    "img": "/static/media/projectOne.5ccc2e91.png",
+    "img": "assets/projectOne.png",
     "name": "National Parks Project",
     "repo": "https://github.com/tmessall/dubootcampProjectOne",
     "site": "https://tmessall.github.io/dubootcampProjectOne/"
   },
   {
-    "img": "/react-portfolio/congo.png",
+    "img": "assets/congo.png",
     "name": "Congo",
     "repo": "https://github.com/tmessall/bootcampProjectTwo",
     "site": "https://vast-fortress-76466.herokuapp.com/"
